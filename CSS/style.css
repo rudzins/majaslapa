@@ -1,0 +1,45 @@
+.mainbox{
+    background-color: darkgoldenrod;
+    width: 1000px;
+    margin: 0 auto;
+}
+.menu{
+    background-color: darkorange;
+    height: 34px;
+    text-align: center;
+}
+.leftside{
+    background-color: coral;
+    width: 100px;
+    height:650px;
+    float:left;
+}
+.main{
+    background-color: blue;
+    width: 800px;
+    height: 650px;
+    float:left;
+}
+.rightside{
+    background-color: cyan;
+    width: 100px;
+    height: 650px;
+    float:left;
+}
+.footer{
+    background-color: chocolate;
+    width: 1000px;
+}
+.menu>ul>li{
+    display:inline;
+    padding:10px 10px 10px 10px;
+    background-color: chocolate;
+    position:relative;
+    top: 8px;
+    font-family: serif;
+    font-size: 14px;
+}
+.menu>ul>li>a{
+    text-decoration: none;
+    color: black;
+}

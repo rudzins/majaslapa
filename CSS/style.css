@@ -15,7 +15,7 @@
     float:left;
 }
 .main{
-    background-color: blue;
+    background-color: white;
     width: 800px;
     height: 650px;
     float:left;
@@ -42,4 +42,10 @@
 .menu>ul>li>a{
     text-decoration: none;
     color: black;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: left;
 }
